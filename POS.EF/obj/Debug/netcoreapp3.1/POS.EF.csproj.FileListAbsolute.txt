@@ -1,0 +1,12 @@
+C:\Users\USER\Documents\coursera\POS\POS.EF\bin\Debug\netcoreapp3.1\POS.EF.deps.json
+C:\Users\USER\Documents\coursera\POS\POS.EF\bin\Debug\netcoreapp3.1\POS.EF.runtimeconfig.json
+C:\Users\USER\Documents\coursera\POS\POS.EF\bin\Debug\netcoreapp3.1\POS.EF.runtimeconfig.dev.json
+C:\Users\USER\Documents\coursera\POS\POS.EF\bin\Debug\netcoreapp3.1\POS.EF.dll
+C:\Users\USER\Documents\coursera\POS\POS.EF\bin\Debug\netcoreapp3.1\POS.EF.pdb
+C:\Users\USER\Documents\coursera\POS\POS.EF\obj\Debug\netcoreapp3.1\POS.EF.csprojAssemblyReference.cache
+C:\Users\USER\Documents\coursera\POS\POS.EF\obj\Debug\netcoreapp3.1\POS.EF.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\coursera\POS\POS.EF\obj\Debug\netcoreapp3.1\POS.EF.AssemblyInfo.cs
+C:\Users\USER\Documents\coursera\POS\POS.EF\obj\Debug\netcoreapp3.1\POS.EF.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\coursera\POS\POS.EF\obj\Debug\netcoreapp3.1\POS.EF.dll
+C:\Users\USER\Documents\coursera\POS\POS.EF\obj\Debug\netcoreapp3.1\POS.EF.pdb
+C:\Users\USER\Documents\coursera\POS\POS.EF\obj\Debug\netcoreapp3.1\POS.EF.genruntimeconfig.cache

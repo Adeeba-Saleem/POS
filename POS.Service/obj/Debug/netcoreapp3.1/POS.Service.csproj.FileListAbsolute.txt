@@ -1,0 +1,9 @@
+C:\Users\USER\Documents\coursera\POS\POS.Service\bin\Debug\netcoreapp3.1\POS.Service.deps.json
+C:\Users\USER\Documents\coursera\POS\POS.Service\bin\Debug\netcoreapp3.1\POS.Service.dll
+C:\Users\USER\Documents\coursera\POS\POS.Service\bin\Debug\netcoreapp3.1\POS.Service.pdb
+C:\Users\USER\Documents\coursera\POS\POS.Service\obj\Debug\netcoreapp3.1\POS.Service.csprojAssemblyReference.cache
+C:\Users\USER\Documents\coursera\POS\POS.Service\obj\Debug\netcoreapp3.1\POS.Service.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\coursera\POS\POS.Service\obj\Debug\netcoreapp3.1\POS.Service.AssemblyInfo.cs
+C:\Users\USER\Documents\coursera\POS\POS.Service\obj\Debug\netcoreapp3.1\POS.Service.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\coursera\POS\POS.Service\obj\Debug\netcoreapp3.1\POS.Service.dll
+C:\Users\USER\Documents\coursera\POS\POS.Service\obj\Debug\netcoreapp3.1\POS.Service.pdb
