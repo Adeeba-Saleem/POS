@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
-#nullable disable
-
-namespace POS.EF.Model
+namespace POS.Domain.Model
 {
-    public partial class ExpiryDetail
+    public class ExpiryDetail
     {
         public int ExpiryId { get; set; }
         public string ProductId { get; set; }

@@ -10,3 +10,6 @@ C:\Users\USER\Documents\coursera\POS\POS.EF\obj\Debug\netcoreapp3.1\POS.EF.cspro
 C:\Users\USER\Documents\coursera\POS\POS.EF\obj\Debug\netcoreapp3.1\POS.EF.dll
 C:\Users\USER\Documents\coursera\POS\POS.EF\obj\Debug\netcoreapp3.1\POS.EF.pdb
 C:\Users\USER\Documents\coursera\POS\POS.EF\obj\Debug\netcoreapp3.1\POS.EF.genruntimeconfig.cache
+C:\Users\USER\Documents\coursera\POS\POS.EF\bin\Debug\netcoreapp3.1\POS.Domain.dll
+C:\Users\USER\Documents\coursera\POS\POS.EF\bin\Debug\netcoreapp3.1\POS.Domain.pdb
+C:\Users\USER\Documents\coursera\POS\POS.EF\obj\Debug\netcoreapp3.1\POS.EF.csproj.CopyComplete

@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
-#nullable disable
-
-namespace POS.EF.Model
+namespace POS.Domain.Model
 {
-    public partial class CategoryTable
+    public class CategoryTable
     {
         public int ProductCategoryId { get; set; }
         public string ProductName { get; set; }

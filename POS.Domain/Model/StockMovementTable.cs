@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 
-#nullable disable
-
-namespace POS.EF.Model
+namespace POS.Domain.Model
 {
-    public partial class StockMovementTable
+   public class StockMovementTable
     {
         public int StockMovementId { get; set; }
         public DateTime StockMovemntDate { get; set; }
