@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS.Domain.Services
+namespace POS.Domain.Services.Common
 {
    public interface IDataService<T>
     {

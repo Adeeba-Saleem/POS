@@ -1,37 +1,34 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
-using POS.Domain.Services;
+using POS.Domain.Services.Common;
+using POS.EF.Services.Common;
 using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POS.EF.Services
+namespace POS.EF.Services.Common
 {
     public class GenericDataService<T> : IDataService<T> where T : class
     {
         private readonly POSDBContextFactory _contextFactory;
+        private readonly NonQueryDataService<T> _nonQueryDataService;
 
         public GenericDataService(POSDBContextFactory contextFactory)
         {
             _contextFactory = contextFactory;
+            _nonQueryDataService = new NonQueryDataService<T>(contextFactory);
         }
 
         public async Task<T> Create(T entity)
         {
-            using POSDBContext context = _contextFactory.CreateDbContext();
-            EntityEntry<T> createdResult = await context.Set<T>().AddAsync(entity);
-            await context.SaveChangesAsync();
-            return createdResult.Entity;
+            return await _nonQueryDataService.Create(entity);
 
         }
 
         public async Task<bool> Delete(T entity)
         {
-            using POSDBContext context = _contextFactory.CreateDbContext();
-            context.Set<T>().Remove(entity);
-            await context.SaveChangesAsync();
-            return true;
+            return await _nonQueryDataService.Delete(entity);
         }
 
         public async Task<T> Get(int id)
@@ -48,10 +45,7 @@ namespace POS.EF.Services
 
         public async Task<T> Update(T entity)
         {
-            using POSDBContext context = _contextFactory.CreateDbContext();
-            context.Set<T>().Update(entity);
-            await context.SaveChangesAsync();
-            return entity;
+            return await _nonQueryDataService.Update(entity);
         }
     }
 }
