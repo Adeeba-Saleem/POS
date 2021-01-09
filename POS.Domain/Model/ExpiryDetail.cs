@@ -13,6 +13,6 @@ namespace POS.Domain.Model
         public DateTime ManufactureDate { get; set; }
         public DateTime ExpiryDate { get; set; }
 
-        public ProductsDetailTable Products { get; set; }
+        public BrandTable Products { get; set; }
     }
 }
