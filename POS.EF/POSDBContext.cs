@@ -18,6 +18,9 @@ namespace POS.EF
         public DbSet<ExpiryDetail> ExpiryDetails { get; set; }
         public DbSet<ProductsDetailTable> ProductDetailTables { get; set; }
         public DbSet<StockMovementTable> StockMovementTables { get; set; }
+        public DbSet<PartyAddressTable> PartyAddressTables { get; set; }
+        public DbSet <PartyTable> PartyTables { get; set; }
+        public DbSet <PartyTypeTable> PartyTypeTables { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

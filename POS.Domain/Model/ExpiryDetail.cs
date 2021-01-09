@@ -6,10 +6,13 @@ namespace POS.Domain.Model
 {
     public class ExpiryDetail
     {
+        [key]
         public int ExpiryId { get; set; }
         public string ProductId { get; set; }
         public string BatchNo { get; set; }
         public DateTime ManufactureDate { get; set; }
         public DateTime ExpiryDate { get; set; }
+
+        public ProductsDetailTable Products { get; set; }
     }
 }

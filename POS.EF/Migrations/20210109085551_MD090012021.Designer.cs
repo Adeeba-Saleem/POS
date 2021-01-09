@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using POS.EF;
 
 namespace POS.EF.Migrations
 {
     [DbContext(typeof(POSDBContext))]
-    partial class POSDBContextModelSnapshot : ModelSnapshot
+    [Migration("20210109085551_MD090012021")]
+    partial class MD090012021
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -68,12 +70,7 @@ namespace POS.EF.Migrations
                     b.Property<string>("ProductId")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("ProductsProductId")
-                        .HasColumnType("nvarchar(450)");
-
                     b.HasKey("ExpiryId");
-
-                    b.HasIndex("ProductsProductId");
 
                     b.ToTable("ExpiryDetails");
                 });
@@ -215,15 +212,6 @@ namespace POS.EF.Migrations
                     b.ToTable("StockMovementTables");
                 });
 
-            modelBuilder.Entity("POS.Domain.Model.ExpiryDetail", b =>
-                {
-                    b.HasOne("POS.Domain.Model.ProductsDetailTable", "Products")
-                        .WithMany("ExpiryDetails")
-                        .HasForeignKey("ProductsProductId");
-
-                    b.Navigation("Products");
-                });
-
             modelBuilder.Entity("POS.Domain.Model.PartyAddressTable", b =>
                 {
                     b.HasOne("POS.Domain.Model.PartyTable", "Party")
@@ -236,11 +224,6 @@ namespace POS.EF.Migrations
             modelBuilder.Entity("POS.Domain.Model.PartyTable", b =>
                 {
                     b.Navigation("Address");
-                });
-
-            modelBuilder.Entity("POS.Domain.Model.ProductsDetailTable", b =>
-                {
-                    b.Navigation("ExpiryDetails");
                 });
 #pragma warning restore 612, 618
         }
