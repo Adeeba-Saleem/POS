@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\USER\Documents\coursera\POS\POS.UI\App.xaml
-11151548125
+3-1503079023
 
-5-1984809557
+13-1237865268
 1921654412462
-MainWindow.xaml;
+Control\NavigationBar.xaml;MainWindow.xaml;Style\Common.xaml;
 
 False
 

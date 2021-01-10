@@ -1,0 +1,11 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:POS.UI.Style">
+
+    <Color x:Key="Nav1">pink</Color>
+    <Color x:Key="Nav2">yellow</Color>
+
+    <SolidColorBrush x:Key="BrushPrimary1" Color="{StaticResource Nav1}"/>
+    <SolidColorBrush x:Key="BrushPrimary2" Color="{StaticResource Nav2}"/>
+
+</ResourceDictionary>

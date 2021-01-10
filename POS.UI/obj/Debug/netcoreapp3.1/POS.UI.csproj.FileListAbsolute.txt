@@ -17,3 +17,8 @@ C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\POS.UI.cspro
 C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\POS.UI.dll
 C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\POS.UI.pdb
 C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\POS.UI.genruntimeconfig.cache
+C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\Control\NavigationBar.g.cs
+C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\Control\NavigationBar.baml
+C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\Style\Common.baml

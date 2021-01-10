@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="POS.UI.Control.NavigationBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:nav ="clr-namespace:POS.UI.State.Navigator"
+             xmlns:local="clr-namespace:POS.UI.Control"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0"
+         Text="  Software Engineering POS System" Background="{StaticResource BrushPrimary1}" FontSize="25" />
+        <Grid Grid.Row="1" Background="{StaticResource BrushPrimary2}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <RadioButton Grid.Column="0" Content="Home" Command="{Binding UpdateCurrentViewModelCommand}"
+                         CommandParameter="{x:Static nav:ViewType.Home}"/>
+            <RadioButton Grid.Column="1" Content="About" />
+            <RadioButton Grid.Column="2" Content="POS"  Command="{Binding UpdateCurrentViewModelCommand}"
+                         CommandParameter="{x:Static nav:ViewType.POS}"  />
+            <RadioButton Grid.Column="3" Content="Contact" />
+            <RadioButton Grid.Column="4" Content="Exit" />
+        </Grid>
+
+    </Grid>
+</UserControl>
