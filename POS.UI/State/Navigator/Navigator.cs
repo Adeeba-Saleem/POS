@@ -1,4 +1,5 @@
 ﻿using POS.UI.Commands;
+using POS.UI.Models;
 using POS.UI.ViewModels;
 using System;
 using System.Collections.Generic;
@@ -7,9 +8,21 @@ using System.Windows.Input;
 
 namespace POS.UI.State.Navigator
 {
-    public class Navigator : INavigator
+    public class Navigator : ObseverableObject,INavigator
     {
-        public ViewModelBase CurrentViewModel { get ; set ; }
+        private ViewModelBase _currentViewModelBase;
+        public ViewModelBase CurrentViewModel { 
+            get
+            {
+                return _currentViewModelBase;
+            }
+
+            set
+            {
+                _currentViewModelBase = value;
+                OnPropertyChanged(nameof(CurrentViewModel));
+            }
+        }
 
         public ICommand UpdateCurrentViewModelCommand => new UpdateCurrentViewModelCommand(this);
     }

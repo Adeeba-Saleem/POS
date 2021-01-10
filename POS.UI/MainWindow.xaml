@@ -6,8 +6,13 @@
         xmlns:control ="clr-namespace:POS.UI.Control"
         xmlns:local="clr-namespace:POS.UI"
         mc:Ignorable="d"
-        Title="POINT OF SALE" Height="450" Width="800" >
+        Title="POINT OF SALE" Height="600" Width="1000" >
     <Grid>
-        <control:NavigationBar/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <control:NavigationBar Grid.Row="0" DataContext="{Binding Navigator}"/>
+        <ContentControl Grid.Row="1" Content="{Binding Navigator.CurrentViewModel}" />
     </Grid>
 </Window>

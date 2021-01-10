@@ -22,3 +22,8 @@ C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\GeneratedInt
 C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\Control\NavigationBar.baml
 C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\App.baml
 C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\Style\Common.baml
+C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\View\HomeView.g.cs
+C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\View\POSView.g.cs
+C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\View\HomeView.baml
+C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\View\POSView.baml
+C:\Users\USER\Documents\coursera\POS\POS.UI\obj\Debug\netcoreapp3.1\Style\NavigationBar.baml

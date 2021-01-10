@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ocFHj0vn1eeDg2hzDg8f0xkxKB54An4hAwEwyluc1k9bxjPFikA5sFJPppjlckMTvPvRubOmoTGsxKTeB2ofzw==",
+  "dgSpecHash": "pCbUj/YXbFdPTyg+0SQgmgmq+/lYPYdl/ihTdVtTuidZ+inO3cW0PhdT1IYt5UPa8pSdr64OeDIOut5L+MNYTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\Documents\\coursera\\POS\\POS.UI\\POS.UI.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\materialdesigncolors\\1.2.7\\materialdesigncolors.1.2.7.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\materialdesignthemes\\3.2.0\\materialdesignthemes.3.2.0.nupkg.sha512"
+  ],
   "logs": []
 }
